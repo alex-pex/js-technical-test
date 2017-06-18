@@ -1,3 +1,6 @@
 {
-  "extends": "react-app"
+  "extends": ["standard", "standard-react", "react-app"],
+  "rules": {
+    "semi": ["error", "always", { "omitLastInOneLineBlock": true }]
+  }
 }
